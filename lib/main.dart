@@ -51,6 +51,7 @@ class SecondRoute extends StatelessWidget {
     */
 
 import 'package:flutter/material.dart';
+import 'app.dart';
 void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget{
@@ -58,6 +59,12 @@ class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    return null;
+    return MaterialApp(
+      title: '找教练',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: App(),
+    );
   }
 }
