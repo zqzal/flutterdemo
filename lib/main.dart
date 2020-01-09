@@ -1,3 +1,4 @@
+/**
 import 'package:flutter/material.dart';
 import 'package:xxflutter/navtest1.dart';
 void main() {
@@ -45,5 +46,18 @@ class SecondRoute extends StatelessWidget {
         ),
       ),
     );
+  }
+}
+    */
+
+import 'package:flutter/material.dart';
+void main() => runApp(new MyApp());
+
+class MyApp extends StatelessWidget{
+  //此小部件是您的应用程序的根。
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return null;
   }
 }
